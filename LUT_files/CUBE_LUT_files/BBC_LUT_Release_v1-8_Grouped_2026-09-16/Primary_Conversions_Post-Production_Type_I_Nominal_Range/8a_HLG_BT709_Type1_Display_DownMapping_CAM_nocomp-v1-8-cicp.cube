@@ -1,7 +1,7 @@
 #file:			  /BBC_LUT_Release_v1-8_Grouped_2026-09-16/Primary_Conversions_Post-Production_Type_I_Nominal_Range/8a_HLG_BT709_Type1_Display_DownMapping_CAM_nocomp-v1-8-cicp.cube
 #creation:		  Wed Sep 16 10:36:46 2026
 #copyright:		  © British Broadcasting Corporation (BBC) MMXXVI
-#version:		  1.8 - Changed Layout to Matsh other LUTs
+#version:		  1.8 - Changed layout to match other LUTs
 #licence:		  Licensed under the Apache Licence, Version 2.0 (the "Licence");
 #				  you may not use this file except in compliance with the Licence.
 #				  You may obtain a copy of the Licence at
