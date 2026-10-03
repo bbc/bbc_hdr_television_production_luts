@@ -35,7 +35,7 @@ During early productions, it was found that some camera manufacturers strictly i
 
 ### Incorrect Matrices
 
-Early hardware LUT video processors assumed that both the input and output matrices (which are used to convert the signal to and from R'G'B') were ITU-R BT.709.  LUT files are provided with a compensation for incorrect matrices.  These should only be used with a device that uses the incorrect matrices - this is usuually obvious because there is no user interface to choose or indication of the matrices in use.
+Early hardware LUT video processors assumed that both the input and output matrices (which are used to convert the signal to and from R'G'B') were ITU-R BT.709.  LUT files are provided with a compensation for incorrect matrices.  These should only be used with a device that uses the incorrect matrices - this is usually obvious because there is no user interface to choose or indication of the matrices in use.
 
 ### Narrow-range vs Full-range
 
@@ -45,9 +45,11 @@ The output of the LUTs which are designed for use with narrow-range output signa
 
 ### LUT Formats
 
-At present, only Adobe CUBE format LUTs are available.
+The LUTs are available in Adobe CUBE format.
 
 ## Documentation
+
+Release notes, implementation guidelines and guidance on format conversion in HLG production are available in [Documentation](https://github.com/bbc/bbc_hdr_television_production_luts/tree/main/Documentation)
 
 ## Licensing
 
@@ -57,4 +59,4 @@ These LUTs are licensed under the Apache 2.0 licence. A copy of the licence is v
 
 | Date | Update Description | LUTS Affected |
 | --- | --- | --- |
-| Sept 2026 | Moved LUT licensing model to Apache 2.0 and incremented version number to 1.8.  No changes to LUT functionality compared to version 1.7. | CUBE LUTs v1.8 |
+| Sept 2026 | Moved LUT licensing model to Apache 2.0 and incremented version number to 1.8. Changed spacing pattern in LUT 8 to match other LUTs.  No changes to LUT functionality compared to version 1.7. | CUBE LUTs v1.8 |
